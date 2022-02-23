@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.11
+FROM phusion/baseimage:focal-1.1.0
 MAINTAINER pducharme@me.com
 
 # Version
@@ -26,7 +26,7 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75
     jsvc \
     jq \
     moreutils \
-    openjdk-8-jre-headless=8u162-b12-1 \
+    openjdk-8-jre-headless=8u252-b09-1ubuntu1 \
     patch \
     sudo \
     tzdata \
